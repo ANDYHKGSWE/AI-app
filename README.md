@@ -1,4 +1,4 @@
-# Andy's AI Anti Procrastination ADHD
+# Andy's AI Anti Procrastination ADHD Application
 
 Andy's Anti Procrastination ADHD is a web application designed to help you break down your tasks and conquer procrastination. This project leverages React, TypeScript, and Tailwind CSS to provide a clean and responsive user interface.
 
