@@ -17,11 +17,11 @@ To install and run this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/andys-anti-procrastination-adhd.git
+   git clone git@github.com:ANDYHKGSWE/AI-app.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd andys-anti-procrastination-adhd
+   cd andys-anti-procrastination
    ```
 3. Install the dependencies:
    ```bash
