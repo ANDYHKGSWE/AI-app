@@ -42,7 +42,7 @@ npm run build
 
 To start the production server, run:
 ```bash
-npm start
+node server.js
 ```
 
 ## Scripts
