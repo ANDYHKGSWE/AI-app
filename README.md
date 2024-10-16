@@ -1,56 +1,76 @@
-# Andy's AI Anti Procrastination ADHD Application
+# Andy's Anti-Procrastination 
 
-Andy's Anti Procrastination ADHD is a web application designed to help you break down your tasks and conquer procrastination. This project leverages React, TypeScript, and Tailwind CSS to provide a clean and responsive user interface.
+## Description
+
+Andy's Anti-Procrastination is a web application designed to help users manage tasks and reduce procrastination. It leverages modern web technologies to provide a seamless user experience.
 
 ## Features
 
-- **Task Input**: Add new tasks with ease.
-- **Task Breakdown**: Break down tasks into subtasks and manage them effectively.
-- **Task Library**: View and manage a library of tasks.
-- **Timer**: Start a timer for each subtask to stay focused.
-
-## Project Structure
+- Task management
+- Integration with OpenAI for enhanced productivity
+- Responsive design using Tailwind CSS
+- Real-time updates with React
 
 ## Installation
 
+To install and run this project locally, follow these steps:
+
 1. Clone the repository:
-    ```sh
-    git clone https://github.com/your-username/your-repo-name.git
-    ```
+   ```bash
+   git clone https://github.com/yourusername/andys-anti-procrastination-adhd.git
+   ```
 2. Navigate to the project directory:
-    ```sh
-    cd your-repo-name
-    ```
+   ```bash
+   cd andys-anti-procrastination-adhd
+   ```
 3. Install the dependencies:
-    ```sh
-    npm install
-    ```
+   ```bash
+   npm install
+   ```
 
 ## Usage
 
-1. Start the development server:
-    ```sh
-    npm run dev
-    ```
-2. Open your browser and navigate to `http://localhost:3000`.
+To start the development server, run:
+```bash
+npm run dev
+```
 
-## Components
+To build the project for production, run:
+```bash
+npm run build
+```
 
-- **App**: The main component that manages the state and renders other components.
-- **TaskInput**: A component for adding new tasks.
-- **TaskBreakdown**: A component for breaking down tasks into subtasks and managing them.
-- **TaskLibrary**: A component for displaying and managing the task library.
+To start the production server, run:
+```bash
+npm start
+```
 
-## API Endpoints
+## Scripts
 
-- **GET /api/tasks**: Fetch the list of tasks.
-- **POST /api/tasks**: Add a new task.
-- **DELETE /api/tasks/:id**: Remove a task by ID.
+- `dev`: Starts the Vite development server.
+- `build`: Builds the project for production.
+- `start`: Starts the Node.js server using `server.js`.
+- `preview`: Previews the production build.
+
+## Dependencies
+
+- axios
+- cors
+- dotenv
+- express
+- lucide-react
+- openai
+- react
+- react-dom
+
+## Development
+
+This project uses Vite for development and build processes. It also includes ESLint for code linting and Tailwind CSS for styling.
 
 ## Contributing
 
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+Contributions are welcome! Please fork the repository and submit a pull request for any improvements.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
