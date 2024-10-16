@@ -59,7 +59,7 @@ function App() {
       <header className="mb-8 text-center">
         <h1 className="text-4xl font-bold text-gray-800 flex items-center justify-center">
           <Brain className="mr-2" size={32} />
-          Andy's Anti Procrastination ADHD
+          Andy's Anti Procrastination
         </h1>
         <p className="text-gray-600 mt-2">Break down your tasks and conquer procrastination</p>
       </header>

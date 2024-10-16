@@ -25,7 +25,7 @@ const startServer = async () => {
 
   // AI service for task breakdown and time estimation
   const aiService = async (task: string) => {
-    const prompt = `Break down the task "${task}" into 4-6 subtasks, each with an estimated time in minutes. Format the response as a JSON object with "name" (string), "estimatedTime" (number), and "subtasks" (array of objects with "name" and "estimatedTime").`;
+    const prompt = `Break down the task "${task}" into 10 subtasks, each with an estimated time in minutes. Format the response as a JSON object with "name" (string), "estimatedTime" (number), and "subtasks" (array of objects with "name" and "estimatedTime").`;
 
     try {
       const response = await openai.createChatCompletion({

@@ -26,7 +26,7 @@ const openai = new OpenAI({
 
 // AI service for task breakdown and time estimation
 const aiService = async (task) => {
-	const prompt = `Break down the task "${task}" into 4-6 subtasks, each with an estimated time in minutes. Format the response as a JSON object with "name" (string), "estimatedTime" (number), and "subtasks" (array of objects with "name" and "estimatedTime").`;
+	const prompt = `Break down the task "${task}" into 5-6 subtasks, each with an estimated time in minutes. Format the response as a JSON object with "name" (string), "estimatedTime" (number), and "subtasks" (array of objects with "name" and "estimatedTime").`;
 
 	try {
 		console.log('Sending request to OpenAI...');
